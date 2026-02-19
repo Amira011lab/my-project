@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      {/*<Greeting name = "Amira" surname="Muse"/>*/}
+      <Greeting name = "Amira" surname="Muse"/>
       <Header />
 
 
