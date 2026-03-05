@@ -1,17 +1,14 @@
-
-import './App.css'
-import Greeting from './components/Greeting'
-import { Header } from './components/header'
+import "./App.css";
+import Header from "./components/Header";
+import "./App.css";
+import Greetings from "./components/Greetings";
 function App() {
-
   return (
     <>
-      <Greeting name = "Amira" surname="Muse"/>
+      {/* <Greetings name="Amira" surname="Muse" /> */}
       <Header />
-
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
