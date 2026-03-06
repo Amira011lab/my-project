@@ -5,7 +5,8 @@ import Greetings from "./components/Greetings";
 function App() {
   return (
     <>
-      {/* <Greetings name="Amira" surname="Muse" /> */}
+       <Greetings name="Amira" surname="Muse" /> 
+      {/* <Greetings /> */}
       <Header />
     </>
   );
